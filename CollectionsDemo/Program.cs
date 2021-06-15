@@ -38,7 +38,7 @@ namespace CollectionsDemo
                         Console.Write("Name: ");
                         names.Remove(Console.ReadLine());
                         /* int index;
-                      if(int.TryParse(nameOrIndex, out index))
+                      if(int.TryParse(nameOrIndex, out index)) //why do we need this?
                       {
                           names.RemoveAt(index - 1);
                       }
